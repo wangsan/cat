@@ -34,13 +34,13 @@
  * jdk-7u79-linux-i586.tar.gz (linux 32位系统)
  * jdk-7u79-linux-x64.tar.gz (linux 64位系统)
  * jdk-7u79-windows-i586.exe (windows 32位系统)
- * jdk-7u79-windows-x64.exe (windows 32位系统)
+ * jdk-7u79-windows-x64.exe (windows 64位系统)
 
 * [Apache Tomcat](http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.57/bin/)
 
  * apache-tomcat-7.0.57.tar.gz (linux 系统)
  * apache-tomcat-7.0.57-windows-x86.zip (windows 32位系统)
- * apache-tomcat-7.0.57-windows-x64.zip (windows 32位系统)
+ * apache-tomcat-7.0.57-windows-x64.zip (windows 64位系统)
 
 * [MySQL](http://www.mysql.com/downloads/)
 
@@ -232,7 +232,7 @@
 
  配置说明：
 
-  * local-mode : 定义服务是否为本地模式（开发模式），在生成环境时，设置为true,启动远程监听模式。默认为 false;
+  * local-mode : 定义服务是否为本地模式（开发模式），在生产环境时，设置为false;
   * hdfs-machine : 定义是否启用HDFS存储方式，默认为 false；
   * job-machine : 定义当前服务是否为报告工作机（开启生成汇总报告和统计报告的任务，只需要一台服务机开启此功能），默认为 false；
   * alert-machine : 定义当前服务是否为报警机（开启各类报警监听，只需要一台服务机开启此功能），默认为 false；
